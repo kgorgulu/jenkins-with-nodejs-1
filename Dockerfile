@@ -1,4 +1,5 @@
-FROM jenkins/jenkins:alpine-jdk17
+FROM --platform=linux/amd64 maven:3.6-jdk-8-slim
+#jenkins/jenkins:alpine-jdk17
 
 USER root
 
